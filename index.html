@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Gallery</h1>
+    
+    <div id="controls">
+        <input type="file" id="folder-upload" webkitdirectory directory multiple style="display: none;">
+        <button onclick="document.getElementById('folder-upload').click()">Upload Folder</button>
+    </div>
+
+    <div id="gallery" class="gallery"></div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
